@@ -1,0 +1,21 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    background: bisque;
+}
+.users-posts {
+    display: flex;
+    flex-direction: row;
+}
+.comments {
+    background: aquamarine;
+    margin: 20px;
+    min-height: 80vh;
+}
+.users, .posts {
+    min-height: 80vh;
+    width: calc(50% - 40px);
+    background: aquamarine;
+    margin: 20px;
+    padding: 10px;
+}
